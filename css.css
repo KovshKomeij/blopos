@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    color: white;
+    font-family: Roboto;
+}
+
+#nav {
+    background-color: #4F1257;
+    padding: 12px;
+}
+
+#vivska {
+    background-color: #44104C;
+    padding: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#dowblo {
+    margin-top: 25px;
+}
+
+#dow {
+    padding: 12px;
+    color: #841E99;
+    background-color: #FFFFFF;
+    border: 1px solid #841E99;
+    border-radius: 4px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+#dow:hover {
+    background-color: #841E99;
+    color: white;
+}
+
+#ss {
+    margin-top: 25px;
+    background-color: #44104C;
+    padding-top: 25px;
+    padding-bottom: 50px
+}
+
+#tg {
+    padding: 12px;
+    color: #841E99;
+    background-color: #FFFFFF;
+    border: 1px solid #841E99;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+#tg:hover {
+    background-color: #841E99;
+    color: white;
+}
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #FFFFFF; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    font-size: 18px;
+}
+
+#footer div {
+    padding: 15px; /* Поля вокруг текста */
+    background: #202020; /* Цвет фона */
+   }
+
+body {
+    background-color: #2D0A33;
+}
