@@ -1,9 +1,15 @@
-<form method="get" class="search-form" action="https://www.google.com/search" name="search">
-                <input type="search" class="search-input" name="q" value="" x-webkit-speech="" id="sbi"><!-- eliminate whitespace
-                --><button id="sbtn" class="search-button" type="submit"><span id="sspan"></span><span class="acchide">Поиск</span></button>
-                <input type="hidden" name="ie" value="UTF-8">
-                <input type="hidden" name="sa" value="Search">
-                <input type="hidden" name="channel" value="fe">
-                <input type="hidden" name="client" value="browser-ubuntu">
-                <input title="search" type="hidden" name="hl" value="ru">
-            </form>
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>БлопСофт Новости</title>
+<link>https://bf228-fnf.github.io/blopos/news.html</link>
+<description>Новости связанные с БлопСофт</description>
+<item>
+<title>Наконц-то </title>
+<link>https://bf228-fnf.github.io/blopos/torrents/Blop OS One Plus.torrent/</link>
+<guid>https://bf228-fnf.github.io/blopos/torrents/Blop OS One Plus.torrent/</guid>
+<description>Файл можно скачать только в торрент формате.</description>
+<pubDate>04 Sep 2022</pubDate>
+</item>
+</channel>
+</rss>
