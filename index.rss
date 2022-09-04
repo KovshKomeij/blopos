@@ -1,0 +1,9 @@
+<form method="get" class="search-form" action="https://www.google.com/search" name="search">
+                <input type="search" class="search-input" name="q" value="" x-webkit-speech="" id="sbi"><!-- eliminate whitespace
+                --><button id="sbtn" class="search-button" type="submit"><span id="sspan"></span><span class="acchide">Поиск</span></button>
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="sa" value="Search">
+                <input type="hidden" name="channel" value="fe">
+                <input type="hidden" name="client" value="browser-ubuntu">
+                <input title="search" type="hidden" name="hl" value="ru">
+            </form>
