@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>БлопСофт - Новости</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Блопсофт - это фанатская группа, которая занимается созданием ОС"/>
+    <meta property="og:url" content="https://bf228-fnf.github.io/blopos/" />
+    <meta property="og:image" content="https://bf228-fnf.github.io/blopos/img/logo.png"/>
+    <link rel=alternate title="Блопсофт Новости" type=application/rss+xml href="/index.rss">
+  </head>
+  <body>
+	<nav class="navbar">
+		<div class="container">
+			<a id="logo" href="index.html">БЛОПСОФТ</a>
+			
+				<div class="navbar-wrap">
+					<ul class="navbar-menu">
+						<li><a href="editions.html">Список редакций</a></li>
+						<li><p>Новости</p></li>
+						<li><a href="about.html">О проекте</a></li>
+						<li><a href="https://boosty.to/blopos/">Boosty</a></li>
+					</ul>
+					
+				<a href="https://www.donationalerts.com/r/blopsoft/" class="donate">Задонатить</a>
+			</div>
+		</div>
+	</nav>
+
+    <div id="block1">
+		<h1 align="center">.BSN формат в разработке!</h1>
+    </div>
+    <div id="block1">
+		<td><p>Участники телеграм канала БлопСофт захотели чтобы на сайте были новости, а я когда хотел их туда добавить через RSS но тут небыло много функций и вот, Дибил228 захотел сделать формат новостей .bsn чтобы можно было их легко внедрить на сайт и оформлять новости. Сам формат будет на основе .xml, а код чтобы внедрить его на сайт будет написан на JavaScript. Сам формат будет с открытым исходным кодом и будет инструкция как внедрить его на сайт.</p><br>
+		<h1 align="center">Как будут выглядить код для .bsn форматов</h1>
+		<pre><code>
+			<span><<span>?xml version="1.0" encoding="utf-8" ?</span>></span>
+			<span><<span>bsn version="0.1"</span>></span>
+			<span>	<<span>channel design="vertical"</span>></span>
+			<span>		<<span>title>БлопСофт</title></span></span>
+			<span>		<<span>styl</span>e></span>
+			<span>			<span>news {</span></span>
+			<span>			<span>border: 2px double #E9AF09;</span></span>
+			<span>			<span>background-color: 4F1257;</span></span>
+			<span>			<span>color: white;</span></span>
+			<span>			<span>padding: 10px;</span></span>
+			<span>			<span>}</span></span>
+			<span>		<<span>/style</span>></span>
+			<span>		<<span>news</span>></span>
+			<span>			<<span>title>.BSN формат в разработке!</title</span>></span>
+			<span>			<<span>link>https://bf228-fnf.github.io/blopos/bsn.html</link</span>></span>
+			<span>			<<span>img>https://bf228-fnf.github.io/blopos/img/logo.png</img</span>></span>
+			<span>			<<span>description>Дибил228 захотел сделать формат новостей .bsn...</description</span>></span>
+			<span>			<<span>date>07.09.22</date</span>></span>
+			<span>		<<span>/news</span>></span>
+			<span>	<<span>/channel</span>></span>
+			<span><<span>/bsn</span>></span>
+		</code></pre><br>
+		<h1 align="center">Как будет выглядить стиль новостей</h1><br>
+		<div align="center">
+			<img src="img/vertical.png">
+			<img src="img/horizontal.png">
+		</div><br>
+		<h1 align="center">Примечание</h1><br>
+		<p align="center">Дизайн новостей можно будет менять. И ещё сделаю программу "BSN creator" через которую можно делать новости и им дизайн!</p>
+    </div>
+  </body>
+</html>
