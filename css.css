@@ -113,9 +113,24 @@
 	align-content: center;
 }
 
-#tab {
+.tab {
 	margin-top: 32px;
 	font-size: 24px;
+	border-color: #BF8F01;
+	border-collapse: collapse;
+	border-style: solid;
+}
+
+.sukanames {
+	background-color: #BF8F01;
+}
+
+.tab td {
+	padding: 4px;
+}
+
+.names {
+	 color: #E9AF09;
 }
 
 body {
