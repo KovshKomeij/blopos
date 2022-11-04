@@ -121,6 +121,15 @@
 	border-style: solid;
 }
 
+.tab a {
+	text-decoration: none;
+}
+
+#down {
+	color: #00E016;
+}
+
+
 .sukanames {
 	background-color: #BF8F01;
 }
