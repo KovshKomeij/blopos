@@ -154,3 +154,23 @@ body {
 .newssi p {
 	color: #808080;
 }
+
+#blos {
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+#dowblos {
+    padding: 16px;
+    color: #E9AF09;
+	font-size: 24px;
+    background-color: #4F1257;
+	text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+	margin-left: 48px;
+}
+
+#dowblos:hover {
+    background-color: #E9AF09;
+    color: #4F1257;
+}
